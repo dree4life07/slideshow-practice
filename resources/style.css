@@ -225,3 +225,36 @@ html {
     /**********   END ABOUT   **********/
 }
 /**********   END SCREEN >800px   **********/
+
+
+
+
+
+
+/**********   SCREEN >1000px   **********/
+@media only screen and (min-width: 1000px) {
+    /**********   ABOUT   **********/
+    .about-container {
+        display: flex;
+        justify-content: center;
+    }
+        .about-slider-container {
+            width: 90%;
+        }
+        .about-info p {
+            line-height: 1.85em;
+        }
+        /*.about-carousel {
+            width: 50%;
+            margin-right: 10px;*/
+
+        }
+        /*.about-carousel-cell {
+            min-width: 50%;*/
+        }
+        .about-img {
+            height: 22em;
+        }
+    /**********   END ABOUT   **********/
+}
+/**********   END SCREEN >1000px   **********/
