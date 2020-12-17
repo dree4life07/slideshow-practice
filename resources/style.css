@@ -122,3 +122,15 @@ html {
 
 
 
+/**********   SCREEN >500px   **********/
+@media only screen and (min-width: 500px) {
+    /**********   ABOUT   **********/
+        .about {
+            /*padding-bottom: 4em;*/
+        }
+        .about-slider-container {
+            padding-bottom: 4em;
+        }
+    /**********   END ABOUT   **********/
+}
+/**********   END SCREEN >500px   **********/
