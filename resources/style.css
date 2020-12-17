@@ -134,3 +134,53 @@ html {
     /**********   END ABOUT   **********/
 }
 /**********   END SCREEN >500px   **********/
+
+
+
+
+
+
+
+/**********   SCREEN >600px   **********/
+@media only screen and (min-width: 600px) {
+    /**********   ABOUT   **********/
+        .about-info h2 {
+            padding-top: 0;
+            text-align: left;
+        }
+        .about-info h4 {
+            width: auto;
+            text-align: left;
+            color: #4c5053;
+        }
+        .about-info p {
+            margin: 0;
+            padding: 1.5em 0 0 0;
+        }
+        .about-slider-container {
+            display: block;
+            width: 100%;
+            height: auto;
+            float: left;
+            padding: 3em 2em;
+            background-color: #f3f3f3;
+        }
+        .about-carousel {
+            width: 250px;
+            height: 16em;
+            float: left;
+            padding-right: 1em;
+        }
+        .about-carousel-cell {
+            display: flex;
+            justify-content: center;
+            min-width: 250px;
+            height: 16em;
+        }
+        .about-img {
+            width: auto;
+            height: 16em;
+        }
+    /**********   END ABOUT   **********/
+}
+/**********   END SCREEN >600px   **********/
